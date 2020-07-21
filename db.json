@@ -2,6 +2,7 @@
 "patients": [
   {
     "id": 1,
+    "gp": "Dr Davey",
     "name": [
     {
       "family": "Mozart",
