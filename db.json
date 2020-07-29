@@ -1,62 +1,60 @@
 {
-"patients": [
-  {
-    "id": 1,
-    "gp": "Dr Davey",
-    "name": [
+  "patients": [
     {
-      "family": "Mozart",
-      "given": [
-        "Amadeusz",
-        "Alexander"
+      "id": 1,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Mozart",
+          "given": ["Amadeusz", "Alexander"],
+          "prefix": "Mr"
+        }
       ],
-      "prefix": "Mr"
-    }
-  ],
-    "address": [
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
+      ],
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": {
+        "value": "4",
+        "trend": "up"
+      }
+    },
     {
-      "city": "Rugby",
-      "country": "United Kingdom",
-      "district": "Warks",
-      "line": [
-        "Drury House"
+      "id": 2,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Bloggs",
+          "given": ["Amadeusz", "Alexander"],
+          "prefix": "Mr"
+        }
       ],
-      "postalCode": "CV213DE"
-    }
-  ],
-    "gender": "male",
-    "nhsNo": "03214567892",
-    "dob": "1990-02-22T18:25:43.511Z",
-    "postCode": "cv21fp"
-  },
-   {
-    "id": 2,
-    "gp": "Dr Davey",
-    "name": [
-    {
-      "family": "Bloggs",
-      "given": [
-        "Amadeusz",
-        "Alexander"
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
       ],
-      "prefix": "Mr"
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": {
+        "value": "77",
+        "trend": "up"
+      }
     }
-  ],
-    "address": [
-    {
-      "city": "Rugby",
-      "country": "United Kingdom",
-      "district": "Warks",
-      "line": [
-        "Drury House"
-      ],
-      "postalCode": "CV213DE"
-    }
-  ],
-    "gender": "male",
-    "nhsNo": "03214567892",
-    "dob": "1990-02-22T18:25:43.511Z",
-    "postCode": "cv21fp"
-  }
-]
+  ]
 }
