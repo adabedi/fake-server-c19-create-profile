@@ -53,8 +53,8 @@
       "dob": "1990-02-22T18:25:43.511Z",
       "postCode": "cv21fp",
       "news2": {
-        "value": "77",
-        "trend": "up"
+        "value": "10",
+        "trend": "down"
       },
       "sepsis": "amber"
     }
