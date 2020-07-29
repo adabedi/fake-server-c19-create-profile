@@ -26,7 +26,8 @@
       "news2": {
         "value": "4",
         "trend": "up"
-      }
+      },
+      "sepsis": "red"
     },
     {
       "id": 2,
@@ -54,7 +55,8 @@
       "news2": {
         "value": "77",
         "trend": "up"
-      }
+      },
+      "sepsis": "amber"
     }
   ]
 }
