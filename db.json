@@ -1,143 +1,185 @@
 {
-    "patients": [
-      {
-        "id": 1,
-        "gp": "Dr Davey",
-        "name": [
-          {
-            "family": "Mozart",
-            "given": ["Amadeusz", "Alexander"],
-            "prefix": "Mr"
-          }
-        ],
-        "address": [
-          {
-            "city": "Rugby",
-            "country": "United Kingdom",
-            "district": "Warks",
-            "line": ["Drury House"],
-            "postalCode": "CV213DE"
-          }
-        ],
-        "gender": "male",
-        "nhsNo": "03214567892",
-        "dob": "1990-02-22T18:25:43.511Z",
-        "postCode": "cv21fp",
-        "news2": {
-          "value": "4",
-          "trend": "up"
-        },
-        "sepsis": "red",
-        "denwis": "concern",
-        "covid": {
-          "tested": "positive",
-          "symptoms": true,
-          "isolation": true,
-          "incomingTest": false
+  "patients": [
+    {
+      "id": 1,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Mozart",
+          "given": ["Amadeusz", "Alexander"],
+          "prefix": "Mr"
         }
+      ],
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
+      ],
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": {
+        "value": "4",
+        "trend": "up"
       },
-      {
-        "id": 2,
-        "gp": "Dr Davey",
-        "name": [
-          {
-            "family": "Bloggs",
-            "given": ["Amadeusz", "Alexander"],
-            "prefix": "Mr"
-          }
-        ],
-        "address": [
-          {
-            "city": "Rugby",
-            "country": "United Kingdom",
-            "district": "Warks",
-            "line": ["Drury House"],
-            "postalCode": "CV213DE"
-          }
-        ],
-        "gender": "male",
-        "nhsNo": "03214567892",
-        "dob": "1990-02-22T18:25:43.511Z",
-        "postCode": "cv21fp",
-        "news2": {
-          "value": "10",
-          "trend": "down"
-        },
-        "sepsis": "amber",
-        "denwis": "noConcern",
-        "covid": {
-          "tested": "negative",
-          "symptoms": true,
-          "isolation": false,
-          "incomingTest": false
-        }
+      "location": {
+        "bed": "01"
       },
-      {
-        "id": 3,
-        "gp": "Dr Davey",
-        "name": [
-          {
-            "family": "Bloggs",
-            "given": ["Bogi", "Bob"],
-            "prefix": "Mr"
-          }
-        ],
-        "address": [
-          {
-            "city": "Rugby",
-            "country": "United Kingdom",
-            "district": "Warks",
-            "line": ["Drury House"],
-            "postalCode": "CV213DE"
-          }
-        ],
-        "gender": "male",
-        "nhsNo": "03214567892",
-        "dob": "1990-02-22T18:25:43.511Z",
-        "postCode": "cv21fp",
-        "news2": null,
-        "sepsis": null,
-        "denwis": null,
-        "covid": {
-          "tested": null,
-          "symptoms": true,
-          "isolation": true,
-          "incomingTest": true
+      "sepsis": "red",
+      "denwis": "concern",
+      "covid": {
+        "tested": "positive",
+        "symptoms": true,
+        "isolation": true,
+        "incomingTest": false
+      }
+    },
+    {
+      "id": 2,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Bloggs",
+          "given": ["Amadeusz", "Alexander"],
+          "prefix": "Mr"
         }
+      ],
+      "location": {
+        "bed": "02"
       },
-      {
-          "id": 4,
-          "gp": "Dr Davey",
-          "name": [
-            {
-              "family": "Surname",
-              "given": ["Name", "Middelname"],
-              "prefix": "Mr"
-            }
-          ],
-          "address": [
-            {
-              "city": "Rugby",
-              "country": "United Kingdom",
-              "district": "Warks",
-              "line": ["Drury House"],
-              "postalCode": "CV213DE"
-            }
-          ],
-          "gender": "male",
-          "nhsNo": "03214567892",
-          "dob": "1990-02-22T18:25:43.511Z",
-          "postCode": "cv21fp",
-          "news2": null,
-          "sepsis": null,
-          "denwis": null,
-          "covid": {
-            "tested": null,
-            "symptoms": false,
-            "isolation": false,
-            "incomingTest": true
-          }
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
         }
-    ]
-  }
-  
+      ],
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": {
+        "value": "10",
+        "trend": "down"
+      },
+      "sepsis": "amber",
+      "denwis": "noConcern",
+      "covid": {
+        "tested": "negative",
+        "symptoms": true,
+        "isolation": false,
+        "incomingTest": false
+      }
+    },
+    {
+      "id": 3,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Bloggs",
+          "given": ["Bogi", "Bob"],
+          "prefix": "Mr"
+        }
+      ],
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
+      ],
+      "location": {
+        "bed": "03"
+      },
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": null,
+      "sepsis": null,
+      "denwis": null,
+      "covid": {
+        "tested": null,
+        "symptoms": true,
+        "isolation": true,
+        "incomingTest": true
+      }
+    },
+    {
+      "id": 4,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Surname",
+          "given": ["Name", "Middelname"],
+          "prefix": "Mr"
+        }
+      ],
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
+      ],
+      "location": {
+        "bed": "04"
+      },
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": null,
+      "sepsis": null,
+      "denwis": null,
+      "covid": {
+        "tested": null,
+        "symptoms": false,
+        "isolation": false,
+        "incomingTest": true
+      }
+    },
+    {
+      "id": 5,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Abramov",
+          "given": ["Dan", "Middelname"],
+          "prefix": "Mr"
+        }
+      ],
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
+      ],
+      "location": {
+        "bed": "05"
+      },
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": null,
+      "sepsis": null,
+      "denwis": null,
+      "covid": null
+    }
+  ]
+}
