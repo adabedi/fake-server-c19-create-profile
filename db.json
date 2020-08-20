@@ -1,74 +1,117 @@
 {
-    "patients": [
-      {
-        "id": 1,
-        "gp": "Dr Davey",
-        "name": [
-          {
-            "family": "Mozart",
-            "given": ["Amadeusz", "Alexander"],
-            "prefix": "Mr"
-          }
-        ],
-        "address": [
-          {
-            "city": "Rugby",
-            "country": "United Kingdom",
-            "district": "Warks",
-            "line": ["Drury House"],
-            "postalCode": "CV213DE"
-          }
-        ],
-        "gender": "male",
-        "nhsNo": "03214567892",
-        "dob": "1990-02-22T18:25:43.511Z",
-        "postCode": "cv21fp",
-        "news2": {
-          "value": "4",
-          "trend": "up"
-        },
-        "sepsis": "red",
-        "denwis": "concern",
-        "covid": true
+  "patients": [
+    {
+      "id": 1,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Mozart",
+          "given": ["Amadeusz", "Alexander"],
+          "prefix": "Mr"
+        }
+      ],
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
+      ],
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": {
+        "value": "4",
+        "trend": "up"
       },
-      {
-        "id": 2,
-        "gp": "Dr Davey",
-        "name": [
-          {
-            "family": "Bloggs",
-            "given": ["Amadeusz", "Alexander"],
-            "prefix": "Mr"
-          }
-        ],
-        "address": [
-          {
-            "city": "Rugby",
-            "country": "United Kingdom",
-            "district": "Warks",
-            "line": ["Drury House"],
-            "postalCode": "CV213DE"
-          }
-        ],
-        "gender": "male",
-        "nhsNo": "03214567892",
-        "dob": "1990-02-22T18:25:43.511Z",
-        "postCode": "cv21fp",
-        "news2": {
-          "value": "10",
-          "trend": "down"
-        },
-        "sepsis": "amber",
-        "denwis": "noConcern",
-        "covid": true
+      "sepsis": "red",
+      "denwis": "concern",
+      "covid": {
+        "tested": "positive",
+        "symptoms": true,
+        "isolation": false,
+        "incomingTest": false
+      }
+    },
+    {
+      "id": 2,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Bloggs",
+          "given": ["Amadeusz", "Alexander"],
+          "prefix": "Mr"
+        }
+      ],
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
+      ],
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": {
+        "value": "10",
+        "trend": "down"
       },
-      {
-        "id": 3,
+      "sepsis": "amber",
+      "denwis": "noConcern",
+      "covid": {
+        "tested": "negative",
+        "symptoms": true,
+        "isolation": true,
+        "incomingTest": true
+      }
+    },
+    {
+      "id": 3,
+      "gp": "Dr Davey",
+      "name": [
+        {
+          "family": "Bloggs",
+          "given": ["Bogi", "Bob"],
+          "prefix": "Mr"
+        }
+      ],
+      "address": [
+        {
+          "city": "Rugby",
+          "country": "United Kingdom",
+          "district": "Warks",
+          "line": ["Drury House"],
+          "postalCode": "CV213DE"
+        }
+      ],
+      "gender": "male",
+      "nhsNo": "03214567892",
+      "dob": "1990-02-22T18:25:43.511Z",
+      "postCode": "cv21fp",
+      "news2": null,
+      "sepsis": null,
+      "denwis": null,
+      "covid": {
+        "tested": null,
+        "symptoms": true,
+        "isolation": true,
+        "incomingTest": false
+      }
+    },
+    {
+        "id": 4,
         "gp": "Dr Davey",
         "name": [
           {
-            "family": "Bloggs",
-            "given": ["Bogi", "Bob"],
+            "family": "Surname",
+            "given": ["Name", "Middelname"],
             "prefix": "Mr"
           }
         ],
@@ -88,8 +131,12 @@
         "news2": null,
         "sepsis": null,
         "denwis": null,
-        "covid": null
+        "covid": {
+          "tested": null,
+          "symptoms": false,
+          "isolation": false,
+          "incomingTest": true
+        }
       }
-    ]
-  }
-  
+  ]
+}
